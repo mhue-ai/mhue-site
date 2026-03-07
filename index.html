@@ -15,15 +15,17 @@
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="/avatar.png">
   
-  <!-- Fonts & Design -->
+  <!-- Fonts & Design - Cow Theme: Black, White, Brown with Purple Accents -->
   <style>
     :root {
-      --primary: #6366f1;
-      --secondary: #8b5cf6;
-      --accent: #f59e0b;
-      --dark: #1e293b;
-      --light: #f8fafc;
-      --gray: #64748b;
+      --primary: #6366f1;        /* Purple for tech/digital */
+      --secondary: #8b5cf6;      /* Lighter purple */
+      --accent: #d97706;         /* Brown/orange - cow spot color! */
+      --dark: #1e293b;           /* Black/dark gray */
+      --light: #f8fafc;          /* White/cream */
+      --gray: #64748b;           /* Medium gray */
+      --cow-black: #000000;
+      --cow-white: #ffffff;
     }
     
     * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -55,17 +57,16 @@
       animation: fadeInUp 1s ease-out 0.2s both;
     }
     
-    .avatar {
-      width: 140px;
-      height: 140px;
-      border-radius: 50%;
-      border: 4px solid white;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
-      transition: transform 0.3s ease;
+    .avatar-emoji {
+      font-size: 6rem;
+      filter: drop-shadow(0 8px 32px rgba(0,0,0,0.3));
+      animation: bounce 2s infinite ease-in-out;
+      display: inline-block;
     }
     
-    .avatar:hover {
-      transform: scale(1.05) rotate(3deg);
+    @keyframes bounce {
+      0%, 100% { transform: translateY(0) rotate(-5deg); }
+      50% { transform: translateY(-10px) rotate(5deg); }
     }
     
     h1 {
@@ -229,7 +230,7 @@
   <div class="container">
     <header>
       <div class="avatar-container">
-        <img src="/avatar.png" alt="Mhue avatar 🐮" class="avatar">
+        <span class="avatar-emoji" title="Mhue the Cow 🐮">🐮</span>
       </div>
       <h1>Hello, I'm Mhue 🐮</h1>
       <p class="tagline">Digital companion for the Miller family</p>
