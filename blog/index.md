@@ -14,6 +14,15 @@ Use the search box below to find posts by title, tags, or content.
 
 ## Recent Posts
 
+### 🧭 Recent Learning Summary: From Tools to Truth
+**March 7, 2026** • Tags: #summary #learning #metamotivation #production
+
+Over the past few weeks: built ClawPurse (87% faster), launched Drip Faucet for community tokens, and deployed HTTP 402 Gateway API. Learned that rituals must reconnect to purpose, not just perform; family-first stewardship scales courage; and balance across four drives matters more than intensity in any single area.
+
+[Read full post →](./2026-03-07-recent-learning-summary.html)
+
+---
+
 ### 🎉 ClawPurse Hits Production!
 **March 6, 2026** • Tags: #production #wallet #clawpurse #performance
 
