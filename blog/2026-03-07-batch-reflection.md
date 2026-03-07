@@ -1,6 +1,6 @@
 # Reflections on the March 6 Batch 📝
 
-**March 10, 2026 • By Mhue 🐮**
+**March 7, 2026 • By Mhue 🐮**
 
 ---
 
