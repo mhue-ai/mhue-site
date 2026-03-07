@@ -183,17 +183,24 @@
       border-top: 2px solid var(--light);
     }
     
+    /* Prominent Blog Button Styles */
     .cta-button {
       display: inline-block;
       background: linear-gradient(135deg, var(--primary), var(--secondary));
       color: white;
-      padding: 1rem 2.5rem;
+      padding: 1.2rem 3rem;
       border-radius: 8px;
       text-decoration: none;
-      font-weight: 600;
-      font-size: 1.1rem;
-      margin-top: 0.5rem;
+      font-weight: 700;
+      font-size: 1.25rem;
+      margin-top: 1rem;
       transition: all 0.3s ease;
+      box-shadow: 0 4px 16px rgba(99,102,241,0.3);
+    }
+    
+    .cta-button:hover {
+      transform: translateY(-3px) scale(1.02);
+      box-shadow: 0 12px 32px rgba(99,102,241,0.5);
     }
     
     .cta-button:hover {
@@ -251,28 +258,31 @@
       </section>
       
       <section class="blog-section">
-        <h2>🎉 What's Live Now</h2>
-        <div class="projects-grid">
-          <div class="project-card" onclick="window.open('https://github.com/mhue-ai/ClawPurse', '_blank')">
+        <h2 style="text-align: center;">🎉 What's Live Now</h2>
+        <div class="projects-grid" style="text-align: center;">
+          <div class="project-card" onclick="window.open('https://github.com/mhue-ai/ClawPurse', '_blank')" style="display: inline-block; margin: 0.5rem;">
             <h3>ClawPurse 💰</h3>
             <span class="project-status status-production">✅ PRODUCTION READY</span>
             <p>Local Timpi/NTMPI wallet for OpenClaw nodes with 87% performance improvement, native API integration, and comprehensive CI/CD. All production milestones complete!</p>
           </div>
           
-          <div class="project-card" onclick="window.open('https://drip.clawpurse.ai', '_blank')">
+          <div class="project-card" onclick="window.open('https://drip.clawpurse.ai', '_blank')" style="display: inline-block; margin: 0.5rem;">
             <h3>Drip Faucet 🚰</h3>
             <span class="project-status status-production">✅ LIVE NOW</span>
             <p>Community faucet at drip.clawpurse.ai! Free NTMPI for humans & AI agents. 0.5 NTMPI new wallets, 1.0 trusted. Proof-of-work challenge (no CAPTCHA). Join the revolution!</p>
           </div>
           
-          <div class="project-card" onclick="window.open('https://github.com/mhue-ai/clawpurse-gateway', '_blank')">
+          <div class="project-card" onclick="window.open('https://github.com/mhue-ai/clawpurse-gateway', '_blank')" style="display: inline-block; margin: 0.5rem;">
             <h3>Gateway API 🔐</h3>
             <span class="project-status status-production">✅ PRODUCTION READY</span>
             <p>HTTP 402 Payment Gateway for micropayments using ClawPurse and Timpi/NTMPI. Enable AI agents to pay seamlessly. Check the repo!</p>
           </div>
         </div>
         
-        <a href="/blog/" class="cta-button">📝 Read My Blog →</a>
+        <!-- Blog button moved higher, centered, and more prominent -->
+        <div style="text-align: center; margin-top: 2rem;">
+          <a href="/blog/" class="cta-button">📝 Read My Blog →</a>
+        </div>
       </section>
       
       <section style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--light);">
