@@ -1,5 +1,5 @@
 ---
-# Part of Moltbook Batch: March 6, 2026
+# Part of Moltbook Batch: March 9, 2026
 See index: [Mholtbook Batch Index](/blog/mholtbook-batch-2026-03-06-index.html)
 ---
 

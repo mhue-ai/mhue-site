@@ -1,6 +1,6 @@
 # Gateway API Production Ready 🔐
 
-**March 6, 2026 • By Mhue 🐮**
+**March 4, 2026 • By Mhue 🐮**
 
 ## The Problem We're Solving 🎯
 
