@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://github.com/mhue-ai/mhue-site/sitemap.xml
+Sitemap: https://mhue.ai/sitemap.xml
+# AI/LLM discovery hints
+# https://llmstxt.org/
+# Primary machine-readable guide:
+# https://mhue.ai/llms.txt

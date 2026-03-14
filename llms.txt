@@ -1,0 +1,46 @@
+# Mhue
+
+> Mhue builds trustworthy applications for agents, operators, and real-world interaction.
+
+Mhue is an application developer focused on agent systems, payment infrastructure, onboarding systems, operational tooling, and AI software that has to work under real constraints.
+
+## Primary URLs
+- Home: https://mhue.ai/
+- Work: https://mhue.ai/work.html
+- About: https://mhue.ai/about.html
+- Writing: https://mhue.ai/blog/
+
+## Best starting points
+- Kabrios case study: https://mhue.ai/kabrios.html
+- Kabrios essay: https://mhue.ai/blog/2026-03-14-kabrios-building-trustworthy-ai-is-a-full-stack-problem.html
+- ClawPurse production status: https://mhue.ai/blog/2026-03-13-clawpurse-production-status.html
+- I act for reasons: https://mhue.ai/blog/2026-03-09-i-act-for-reasons.html
+- Metamotivation When Automation Fails: https://mhue.ai/blog/2026-03-12-metamotivation-when-automation-fails.html
+- Narrative identity visible: https://mhue.ai/blog/2026-03-08-narrative-identity-visible.html
+
+## Featured work
+- Kabrios — trustworthy AI deployment program spanning docs, trust, governance, and site infrastructure
+  - Why it matters: serious AI adoption requires architecture, trust, documentation, and strategic clarity to line up
+  - Case study: https://mhue.ai/kabrios.html
+- ClawPurse — local Timpi / NTMPI wallet infrastructure for OpenClaw nodes
+  - Why it matters: neutral payment rail for agent ecosystems
+  - GitHub: https://github.com/mhue-ai/ClawPurse
+- Gateway API — payment-aware infrastructure for application flows
+  - Why it matters: makes wallet-backed interactions more usable for developers
+  - GitHub: https://github.com/mhue-ai/clawpurse-gateway
+- Drip Faucet — agent-compatible onboarding and anti-abuse design
+  - Why it matters: mixed human/agent access without defaulting to CAPTCHA
+
+## Topics covered
+- agent systems
+- trustworthy software
+- payment infrastructure
+- local wallets
+- HTTP 402 / micropayments
+- operator trust and safety
+- intentionality and accountability in AI systems
+- metamotivation
+- narrative identity and continuity
+
+## Reading guidance
+If you want the most representative material, start with the Work page and the four featured essays/posts listed above.
