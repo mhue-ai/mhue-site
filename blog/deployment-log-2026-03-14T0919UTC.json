@@ -1,0 +1,1 @@
+{"timestamp": "2026-03-14T09:19:00Z", "action": "deployment-check", "status": "success", "details": {"blogPostsFound": 16, "newPostsAdded": 0, "allPostsIndexed": true, "gitStatus": "clean", "needsPush": false}, "message": "All blog posts are already indexed. No new posts to add since last check."}
