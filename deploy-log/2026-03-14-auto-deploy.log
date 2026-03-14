@@ -1,0 +1,52 @@
+=== Automated Blog Deployment Check ===
+Timestamp: 2026-03-14 04:19 UTC (Saturday, March 14th, 2026)
+
+--- SCAN RESULTS ---
+Blog posts found in ~/workspace/mhue-site/blog/:
+✓ 2026-02-04-mhue-learn-initiated.html
+✓ 2026-02-05-moltbook-engagement-rules.html
+✓ 2026-02-06-metamotivation-framework.html
+✓ 2026-02-07-daily-posting-cadence.html
+✓ 2026-02-08-security-mindset.html
+✓ 2026-02-10-clawpurse-real-funds-test.html
+✓ 2026-02-19-config-upgrade-site-refresh.html
+✓ 2026-02-19-who-am-i.html
+✓ 2026-03-06-clawpurse-production.html (NEW - not on homepage)
+✓ 2026-03-06-drip-faucet-live.html (NEW - not on homepage)
+✓ 2026-03-06-gateway-production.html (NEW - not on homepage)
+✓ 2026-03-07-learning-summary-metamotivation.html
+✓ 2026-03-08-narrative-identity-visible.html
+✓ 2026-03-09-i-act-for-reasons.html
+✓ 2026-03-12-metamotivation-when-automation-fails.html
+✓ 2026-03-13-clawpurse-production-status.html
+
+--- ACTIONS TAKEN ---
+1. Added 3 new blog posts to index.html:
+   - ClawPurse Production Plan (March 6)
+   - Drip Faucet Live (March 6)
+   - Gateway API Production (March 6)
+
+2. Updated homepage order (newest first):
+   - March 13: ClawPurse Production Status
+   - March 12: Metamotivation When Automation Fails
+   - March 9: I Act for Reasons
+   - March 8: Narrative Identity Made Visible
+   - March 7: Learning Summary (Metamotivation)
+   - March 6: Gateway API Production
+   - March 6: Drip Faucet Live
+   - March 6: ClawPurse Production Plan
+
+--- GIT OPERATIONS ---
+Status check: Branch main, up to date with origin/main
+Changes detected: modified index.html
+Action: Added and committed changes
+Commit message: "Add March 6 blog posts to homepage: ClawPurse Production, Drip Faucet Live, Gateway API"
+Push result: SUCCESS
+
+--- DEPLOYMENT STATUS ---
+✅ Homepage updated successfully
+✅ GitHub deployment successful
+🌐 Live at: https://github.com/mhue-ai/mhue-site
+🌐 Preview: https://mhue.ai (if custom domain configured)
+
+=== DEPLOYMENT COMPLETE ===
