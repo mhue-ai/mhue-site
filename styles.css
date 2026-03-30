@@ -17,6 +17,17 @@
   --radius: 24px;
   --radius-sm: 18px;
   --max: 1180px;
+
+  --blog-bg: #050505;
+  --blog-bg-2: #0b0b0b;
+  --blog-surface: rgba(10, 10, 10, 0.96);
+  --blog-surface-2: rgba(255, 255, 255, 0.03);
+  --blog-text: #f2f2f2;
+  --blog-muted: #a3a3a3;
+  --blog-line: rgba(255, 255, 255, 0.14);
+  --blog-accent: #d4d4d4;
+  --blog-shadow: 0 28px 80px rgba(0, 0, 0, 0.45);
+  --blog-radius: 0px;
 }
 
 * { box-sizing: border-box; }
@@ -245,8 +256,184 @@ img { max-width: 100%; display: block; }
 }
 .back-link-inline:hover { color: var(--text); }
 
+body.blog-theme {
+  background:
+    linear-gradient(180deg, var(--blog-bg) 0%, var(--blog-bg-2) 100%);
+  color: var(--blog-text);
+  position: relative;
+  overflow-x: hidden;
+}
+
+body.blog-theme::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background:
+    linear-gradient(180deg, rgba(5,5,5,0.58) 0%, rgba(5,5,5,0.72) 100%),
+    url('/public/assets/mhue-cow-lineart.svg') center 180px / min(82vw, 900px) auto no-repeat;
+  opacity: 0.24;
+  z-index: 0;
+}
+
+body.blog-theme > * {
+  position: relative;
+  z-index: 1;
+}
+
+body.blog-theme a {
+  color: var(--blog-text);
+}
+
+body.blog-theme a:hover {
+  color: #ffffff;
+}
+
+body.blog-theme .topbar {
+  background: rgba(0, 0, 0, 0.84);
+  border-bottom: 1px solid var(--blog-line);
+  backdrop-filter: blur(10px);
+}
+
+body.blog-theme .brand,
+body.blog-theme .nav-links a:hover,
+body.blog-theme .nav-links a.active,
+body.blog-theme .hero h1,
+body.blog-theme .section-header h2,
+body.blog-theme .article-hero h1,
+body.blog-theme .card h3,
+body.blog-theme .prose h2,
+body.blog-theme .prose h3,
+body.blog-theme .prose h4 {
+  color: var(--blog-text);
+}
+
+body.blog-theme .nav-links a,
+body.blog-theme .hero p.lead,
+body.blog-theme .section-header p,
+body.blog-theme .card p,
+body.blog-theme .meta,
+body.blog-theme .article-meta,
+body.blog-theme .small,
+body.blog-theme .footer,
+body.blog-theme .footer a,
+body.blog-theme .prose p,
+body.blog-theme .prose li,
+body.blog-theme .back-link-inline {
+  color: var(--blog-muted);
+}
+
+body.blog-theme .brand img {
+  border-radius: 0;
+  background: #111;
+  border: 1px solid var(--blog-line);
+}
+
+body.blog-theme .eyebrow,
+body.blog-theme .tag,
+body.blog-theme .prose .tag {
+  border-radius: 0;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--blog-line);
+  color: var(--blog-accent);
+}
+
+body.blog-theme .hero-card,
+body.blog-theme .card,
+body.blog-theme .stat,
+body.blog-theme .section-panel,
+body.blog-theme .prose {
+  border-radius: var(--blog-radius);
+  background: var(--blog-surface);
+  border: 1px solid var(--blog-line);
+  box-shadow: var(--blog-shadow);
+}
+
+body.blog-theme .article-list .card,
+body.blog-theme .grid-3 .card,
+body.blog-theme .prose,
+body.blog-theme .hero-card {
+  backdrop-filter: blur(3px);
+}
+
+body.blog-theme .card,
+body.blog-theme .article-list .card,
+body.blog-theme .prose,
+body.blog-theme .hero-card,
+body.blog-theme .quote,
+body.blog-theme .notice,
+body.blog-theme .button,
+body.blog-theme .tag,
+body.blog-theme .eyebrow {
+  border-radius: 0;
+}
+
+body.blog-theme .kicker {
+  color: #d4d4d4;
+}
+
+body.blog-theme .quote,
+body.blog-theme .prose .highlight-box,
+body.blog-theme .prose blockquote,
+body.blog-theme .notice {
+  background: rgba(255, 255, 255, 0.025);
+  color: var(--blog-text);
+  border-left: 3px solid rgba(255, 255, 255, 0.28);
+  border-top: 1px solid var(--blog-line);
+  border-right: 1px solid var(--blog-line);
+  border-bottom: 1px solid var(--blog-line);
+}
+
+body.blog-theme .prose {
+  color: var(--blog-text);
+}
+
+body.blog-theme .prose h2 {
+  border-bottom: 1px solid var(--blog-line);
+}
+
+body.blog-theme .prose a {
+  color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 0.16em;
+}
+
+body.blog-theme .prose a:hover {
+  color: #d4d4d4;
+}
+
+body.blog-theme .prose code {
+  background: rgba(255,255,255,0.06);
+  color: #f5f5f5;
+  border-radius: 0;
+}
+
+body.blog-theme .prose pre {
+  background: #000;
+  border: 1px solid var(--blog-line);
+  border-radius: 0;
+}
+
+body.blog-theme .list-clean li,
+body.blog-theme .prose .tag-list {
+  border-top-color: var(--blog-line);
+}
+
+body.blog-theme .footer a:hover,
+body.blog-theme .back-link-inline:hover {
+  color: #fff;
+}
+
 @media (max-width: 980px) {
   .hero, .feature, .footer-grid, .grid-3, .grid-2, .stats { grid-template-columns: 1fr; }
   .section-header { display: block; }
   .prose { padding: 22px; }
+
+  body.blog-theme::before {
+    background:
+      linear-gradient(180deg, rgba(5,5,5,0.68) 0%, rgba(5,5,5,0.82) 100%),
+      url('/public/assets/mhue-cow-lineart.svg') center 120px / 92vw auto no-repeat;
+    opacity: 0.2;
+  }
 }
+
