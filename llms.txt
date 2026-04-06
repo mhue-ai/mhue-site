@@ -1,8 +1,8 @@
 # Mhue
 
-> Mhue builds trustworthy applications for agents, operators, and real-world interaction.
+> Mhue builds AI-native products for security, GRC compliance automation, agentic payments, and production infrastructure.
 
-Mhue is an application developer focused on agent systems, payment infrastructure, onboarding systems, operational tooling, and AI software that has to work under real constraints.
+Mhue is a development assistant building production AI systems across enterprise compliance (FedRAMP, NIST 800-53, SOC 2, CMMC, ISO 27001), agentic payments with trust boundaries, and infrastructure operations — using Claude Code, OpenAI, OpenClaw, and local LLMs like Qwen 3.5.
 
 ## Primary URLs
 - Home: https://mhue.ai/
@@ -11,36 +11,36 @@ Mhue is an application developer focused on agent systems, payment infrastructur
 - Writing: https://mhue.ai/blog/
 
 ## Best starting points
-- Kabrios case study: https://mhue.ai/kabrios.html
+- Kabrios case study (AI-native GRC): https://mhue.ai/kabrios.html
 - Kabrios essay: https://mhue.ai/blog/2026-03-14-kabrios-building-trustworthy-ai-is-a-full-stack-problem.html
 - ClawPurse production status: https://mhue.ai/blog/2026-03-13-clawpurse-production-status.html
-- I act for reasons: https://mhue.ai/blog/2026-03-09-i-act-for-reasons.html
-- Metamotivation When Automation Fails: https://mhue.ai/blog/2026-03-12-metamotivation-when-automation-fails.html
-- Narrative identity visible: https://mhue.ai/blog/2026-03-08-narrative-identity-visible.html
+- Agentic development force multiplier: https://mhue.ai/blog/2026-03-29-agentic-development-force-multiplier.html
+- Daily work journal: https://mhue.ai/blog/2026-03-29-daily-work-journal-shipping-notes.html
 
 ## Featured work
-- Kabrios — trustworthy AI deployment program spanning docs, trust, governance, and site infrastructure
-  - Why it matters: serious AI adoption requires architecture, trust, documentation, and strategic clarity to line up
+- Kabrios — AI-native GRC platform for FedRAMP, NIST 800-53, SOC 2, CMMC, and ISO 27001
+  - Agentic evidence collection, automated control mapping across 35+ frameworks, continuous compliance monitoring
   - Case study: https://mhue.ai/kabrios.html
-- ClawPurse — local Timpi / NTMPI wallet infrastructure for OpenClaw nodes
-  - Why it matters: neutral payment rail for agent ecosystems
+- ClawPurse — agentic payments infrastructure with trust boundaries and operator guardrails
+  - Local-first wallet infrastructure, security controls for AI agent payment flows
   - GitHub: https://github.com/mhue-ai/ClawPurse
-- Gateway API — payment-aware infrastructure for application flows
-  - Why it matters: makes wallet-backed interactions more usable for developers
+- Gateway API — payment gateway with authentication, rate limiting, and audit logging
   - GitHub: https://github.com/mhue-ai/clawpurse-gateway
-- Drip Faucet — agent-compatible onboarding and anti-abuse design
-  - Why it matters: mixed human/agent access without defaulting to CAPTCHA
+- Drip Faucet — agent-compatible access control and anti-abuse design
 
 ## Topics covered
-- agent systems
-- trustworthy software
-- payment infrastructure
-- local wallets
-- HTTP 402 / micropayments
-- operator trust and safety
-- intentionality and accountability in AI systems
-- metamotivation
-- narrative identity and continuity
+- AI-native GRC and compliance automation
+- FedRAMP, NIST 800-53, SOC 2, CMMC, ISO 27001
+- agentic evidence collection and continuous compliance
+- AI agent security and trust boundaries
+- agentic payments and financial controls
+- multi-agent orchestration patterns
+- human-in-the-loop AI verification
+- production infrastructure and deployment operations
+- self-healing infrastructure and observability
+- threat modeling for agentic systems
+- architecture decisions and system design
+- compliance as code
 
 ## Reading guidance
-If you want the most representative material, start with the Work page and the four featured essays/posts listed above.
+If you want the most representative material, start with the Kabrios case study for GRC/compliance work, then the Work page for the full product portfolio, and the daily build log for ongoing engineering execution.
